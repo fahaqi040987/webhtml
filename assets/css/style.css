@@ -1,0 +1,206 @@
+@font-face{
+	font-family: Raleway-Regular;
+	src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+}
+@font-face{
+	font-family: Raleway-Bold;
+	src: url('../fonts/Raleway-Bold.ttf') format('truetype');
+}
+
+.red{
+	color: red;
+}
+
+.top20{
+	margin-top: 20px;
+}
+
+.about-text {
+	text-align: justify;
+}
+
+footer{
+	background-color: #daeee3;
+	padding-top: 15px;
+	padding-bottom: 65px;
+}
+
+footer a {
+	color: red;
+	text-decoration: none;
+}
+footer a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+h1,h2,h3,h4,h5,h5,h6{
+	font-family: Raleway-Bold;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Raleway-Regular;
+}
+
+footer p.abu{
+	color: grey;
+}
+
+.footer-second{
+	background-color: #daeee3;
+	padding: 15px 0;
+
+}
+
+.footer-bottom .icon img, .footer-second .icon img, .footer-bottom-about img{
+	text-align: right;
+	float: right;
+}
+
+.footer-bottom{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footer-bottom-about {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #daeee3;
+
+}
+
+.footer
+
+.wrapper{
+	width: 100%;
+}
+
+header{
+	color: black;
+	border-bottom: 1px solid thin #5f5f5f;
+	box-shadow: 0 0 3px #e5e5e5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+header .menu .navbar-default{
+	background-color: transparent;
+	border: none;
+}
+
+header .menu .navbar{
+	margin-bottom: 0;
+}
+
+header .menu ul.nav li a{
+	/*color: black;*/
+	font-weight: 20px;
+}
+
+header .menu ul.nav li a:hover{
+	/*color: black;*/
+	font-weight: 20px;
+	color: red;
+}
+
+.catatan-kaki-about, .catatan-kaki-top20, .catatan-kaki-blog{
+	text-decoration: none;
+	padding-top: 20px;
+}
+
+div .breadcrumb a:hover{
+	text-decoration: none;
+}
+
+.blogging {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.row {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.media img.recent-images {
+	width: 136px;
+	height: 101px;
+}
+
+.jarak{
+	margin-top: 60px;
+	margin-bottom: 25px;
+}
+
+.no-padding{
+	padding: 0px !important;
+}
+
+address {
+	margin-bottom: 20px;
+}
+
+
+address p, .contact-info p{
+	line-height: 8px;
+
+}
+
+.contact-form form label{
+	display: block;
+}
+
+.contact-form form input{
+	border: thin solid #eee;
+	width: 247px;
+
+}
+.contact-form form textarea {
+	border: thin solid #eee;
+	width: 748px;
+}
+
+.contact-form form input[type='submit']{
+	width: auto;
+	background-color: blue;
+}
+
+.image-detail img {
+	/*float: left;*/
+	max-width: 80px;
+	/*display :block;*/
+	margin: 0 -15px;
+	/*margin-left: -19px;*/
+}
+
+.info-image {
+	margin-top: 0px;
+}
+
+.info-image h3 {
+	margin-top: 0px;
+}
+
+.info-harga {
+	margin-left: 30px;
+}
+
+.info-harga div h3 {
+	margin-top: 0px;
+	color: red;
+}
+
+.related-product {
+	padding-top: 20px;
+	
+}
+
+.related-product .row {
+	text-align: center;
+}
+
+.related-product p{
+	color: red;
+}
